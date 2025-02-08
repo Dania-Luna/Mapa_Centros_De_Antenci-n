@@ -35,7 +35,8 @@ var colors = {
 };
 
 // Cargar el archivo GeoJSON y llenar los filtros
-fetch('CENTROS_ATENCION.geojson')
+fetch('https://tuusuario.github.io/tu-repo/CENTROS_ATENCION.geojson')
+
     .then(response => response.json())
     .then(data => {
         geojsonData = data;  // Guardamos los datos originales
